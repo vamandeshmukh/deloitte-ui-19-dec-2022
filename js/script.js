@@ -27,21 +27,36 @@
 // array, JS object, class object, function 
 
 
-let myData = 10;
-console.log(myData);
-console.log(typeof (myData));
+// let myData = 10;
+// console.log(myData);
+// console.log(typeof (myData));
 
-myData = 20;
-console.log(myData);
-console.log(typeof (myData));
+// myData = 20;
+// console.log(myData);
+// console.log(typeof (myData));
 
-myData = 'abc';
-console.log(myData);
-console.log(typeof (myData));
+// myData = 'abc';
+// console.log(myData);
+// console.log(typeof (myData));
 
-myData = false;
-console.log(myData);
-console.log(typeof (myData));
+// myData = false;
+// console.log(myData);
+// console.log(typeof (myData));
+
+// ---
+
+console.log(10 == 10);
+
+
+
+
+
+
+
+
+
+
+
 
 
 
