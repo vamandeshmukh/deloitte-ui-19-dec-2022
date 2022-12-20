@@ -14,9 +14,11 @@ class Employee {
         console.log(this.firstName + ' works...');
     };
 }
-// Employee obj = new Employee();
+
 const obj = new Employee();
 obj.work();
 obj.firstName = 'Sonu';
 obj.work();
+const obj2 = new Employee(102, 'Monu', 10.5);
+obj2.work();
 
