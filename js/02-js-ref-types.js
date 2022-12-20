@@ -45,7 +45,7 @@ const empData = {
     spouseName: null,
     phones: [9876543210, 6789012345],
     address: {
-        street: 'bank street',
+        street: 'Bank Street',
         city: 'Hyderabad',
         pin: 500001
     },
@@ -54,8 +54,8 @@ const empData = {
 };
 
 // console.log(empData);
-console.log(empData.address.city);
-console.log(empData.phones[1]);
+// console.log(empData.address.city);
+// console.log(empData.phones[1]);
 
 
 
