@@ -4,7 +4,26 @@
 
 // array, JS object, function, class object 
 
-const myArray = [10, 20, 30];
+const myArray = [10, 20, 30, 40, 50];
 
-console.log(myArray);
+// console.log(myArray);
 
+// iterate through array elements - 
+console.log('1. with for loop');
+for (let i = 0; i < myArray.length; i++) {
+    console.log(myArray[i]);
+}
+
+console.log('2. with for of loop');
+for (const elem of myArray) {
+    console.log(elem);
+}
+
+console.log('3. with for in loop');
+for (const elem in myArray) {
+    console.log(elem);
+}
+
+console.log('4. with forEach method');
+
+myArray.forEach((e) => { console.log(e); });
