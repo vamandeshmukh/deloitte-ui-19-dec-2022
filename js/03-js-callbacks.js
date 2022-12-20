@@ -10,17 +10,28 @@
 
 // console.log('Three');
 
+// problem of Aync JS 
+
+// console.log('Start');
+
+// const getFunValue = () => {
+//     setTimeout(() => {
+//         return { fun: 'Be positive!' };
+//     }, 2000);
+// };
+
+// const funValue = getFunValue();
+// console.log(funValue.fun);
+
+// solution 1 - use callback 
 
 console.log('Start');
 
-const getFunValue = () => {
+const getFunValue = (arg) => {
     setTimeout(() => {
-        return { fun: 'Be positive!' };
+        arg({ fun: 'Be positive!' });
     }, 2000);
 };
 
-funValue = getFunValue();
-console.log(funValue.fun);
-
-
+getFunValue(??);
 
