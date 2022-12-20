@@ -33,5 +33,7 @@ const getFunValue = (arg) => {
     }, 2000);
 };
 
-getFunValue((param) => { console.log(param.fun); });
+getFunValue(
+    (param) => { console.log(param.fun); }
+);
 
