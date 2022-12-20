@@ -12,6 +12,7 @@
 
 
 console.log('Start');
+
 const getFunValue = () => {
     setTimeout(() => {
         return { fun: 'Be positive!' };
