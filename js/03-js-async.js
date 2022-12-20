@@ -8,12 +8,12 @@ const fun = (arg) => {
     // code to use arg
     // console.log(arg * 2); // use 1
     // console.log('Hi ' + arg); // use 2
-    console.log(arg.abc); // use 3
+    console.log(arg.firstName); // use 3
 };
 
 // fun(10); // call 1
 // fun('Sonu'); // call 2
-fun(??); // call 3
+fun({ firstName: 'asdf' }); // call 3
 
 
 
