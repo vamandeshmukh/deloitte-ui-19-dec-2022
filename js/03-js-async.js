@@ -47,6 +47,12 @@ const fun = (arg) => {
     arg();
 };
 
-fun(() => { console.log('argument passed'); });
+// fun(() => { console.log('argument passed'); });
+
+const funToPass = () => {
+    console.log('argument passed 2');
+};
+
+fun(funToPass);
 
 
