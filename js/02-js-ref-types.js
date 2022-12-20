@@ -4,26 +4,51 @@
 
 // array, JS object, function, class object 
 
-const myArray = [10, 20, 30, 40, 50];
+// const myArray = [10, 20, 30, 40, 50];
 
-// console.log(myArray);
+// // console.log(myArray);
 
-// iterate through array elements - 
-console.log('1. with for loop');
-for (let i = 0; i < myArray.length; i++) {
-    console.log(myArray[i]);
-}
+// // iterate through array elements - 
+// console.log('1. with for loop');
+// for (let i = 0; i < myArray.length; i++) {
+//     console.log(myArray[i]);
+// }
 
-console.log('2. with for of loop');
-for (const elem of myArray) {
-    console.log(elem);
-}
+// console.log('2. with for of loop');
+// for (const elem of myArray) {
+//     console.log(elem);
+// }
 
-console.log('3. with for in loop');
-for (const elem in myArray) {
-    console.log(elem);
-}
+// console.log('3. with for in loop');
+// for (const elem in myArray) {
+//     console.log(elem);
+// }
 
-console.log('4. with forEach method');
+// console.log('4. with forEach method');
 
-myArray.forEach((e) => { console.log(e); });
+// myArray.forEach((e) => { console.log(e); });
+
+
+// const myDataArray = [10, 12.25, false, 'abc'];
+
+// console.log(myDataArray);
+
+
+// objects in JS 
+// proper JS Objects 
+
+const empData = {
+    eid: 101,
+    firstName: 'Sonu',
+    salary: 10.25
+};
+
+
+
+
+
+
+
+
+
+
