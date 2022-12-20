@@ -34,12 +34,6 @@
 
 
 
-// console.log('One');
-
-// setTimeout();
-
-// console.log('Two'); // delay
-// console.log('Three');
 
 
 // const fun = (arg) => {
