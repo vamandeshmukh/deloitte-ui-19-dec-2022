@@ -42,17 +42,27 @@
 // console.log('Three');
 
 
+// const fun = (arg) => {
+//     console.log('fun function called');
+//     arg();
+// };
+
+// fun(() => { console.log('anonymous function called'); });
+
+// // const funToPass = () => {
+// //     console.log('argument passed 2');
+// // };
+
+// // fun(funToPass);
+
+
+
+
 const fun = (arg) => {
     console.log('fun function called');
-    arg();
+    arg({ firstName: 'Sonu' });
 };
 
-// fun(() => { console.log('argument passed'); });
-
-const funToPass = () => {
-    console.log('argument passed 2');
-};
-
-fun(funToPass);
+fun(??);
 
 
