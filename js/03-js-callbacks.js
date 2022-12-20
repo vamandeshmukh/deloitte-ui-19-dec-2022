@@ -45,14 +45,15 @@ console.log('Start');
 const getFunValue = () => {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
-            resolve({ fun: 'Be positive!' });
-            // reject();
+            // resolve({ fun: 'Be positive!' });
+            reject({ message: 'Something is wrong!' });
         }, 2000);
     });
 };
 
 getFunValue()
-    .then((abc) => { console.log(abc.fun) });
+    .then((response) => { console.log(response.fun); })
+    .catch((error) => { console.log(error.message); });
 
 
 
