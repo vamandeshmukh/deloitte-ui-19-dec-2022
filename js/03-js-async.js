@@ -63,6 +63,10 @@ const fun = (arg) => {
     arg({ firstName: 'Sonu' });
 };
 
-fun(??);
+// fun(??);
 
+fun((a) => { 
+    console.log('Anon function called');
+    console.log(a.firstName); 
+});
 
