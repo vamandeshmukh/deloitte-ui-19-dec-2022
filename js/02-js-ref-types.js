@@ -39,11 +39,23 @@
 
 const empData = {
     eid: 101,
-    firstName: 'Sonu',
-    salary: 10.25
+    firstName: 'Kasyap',
+    salary: 10.25,
+    isMarried: false,
+    spouseName: null,
+    phones: [9876543210, 6789012345],
+    address: {
+        street: 'bank street',
+        city: 'Hyderabad',
+        pin: 500001
+    },
+    fun: () => { },
+    jobRole: 'Analyst'
 };
 
-
+// console.log(empData);
+console.log(empData.address.city);
+console.log(empData.phones[1]);
 
 
 
