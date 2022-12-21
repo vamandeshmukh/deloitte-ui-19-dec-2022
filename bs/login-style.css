@@ -1,0 +1,11 @@
+.style-heading {
+    color: blue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+    font-weight: lighter;
+}
+
+.style-message {
+    color: blueviolet;
+    font-family: cursive;
+    font-weight: 200;
+}

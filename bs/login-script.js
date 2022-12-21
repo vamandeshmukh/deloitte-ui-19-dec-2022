@@ -1,5 +1,4 @@
 
-
 const loginFun = () => {
     const userName = document.getElementById('username').value;
     const password = document.getElementById('password').value;
@@ -12,5 +11,4 @@ const loginFun = () => {
         document.getElementById('afterLogin').innerHTML = 'Invalid credentials!';
         document.getElementById('loginform').reset();
     }
-
 };
