@@ -3,26 +3,40 @@
 
 <head>
     <script src='./login-script.js'></script>
-    <link href="./login-style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
 </head>
-<div>
-    <h1 class="style-heading">Login Form</h1>
 
-</div>
-<form id="loginform">
-    <input type="text" id="username" value="" placeholder="Enter username" required autofocus />
-    <br /> <br />
-    <input type="password" id="password" value="" placeholder="Eter password" required />
-    <br /> <br />
-    <input type="button" id="loginbutton" value="Login" onclick="loginFun();" />
-    <br /> <br />
-</form>
-<div>
-    <p id="afterLogin" class="style-message"></p>
-</div>
+<body class="bg-dark text-light">
+    <div>
+        <div class="px-3 py-3" style="background-color: black;">
+            <img height="50px" src="https://cob.unt.edu/sites/default/files/img/logos/Deloitte-Logo.png">
+        </div>
 
-<body>
+        <div class="container px-3 py-3">
+            <p class="display-4">Deloitte Login Form</p>
+            <hr />
+            <div class="row">
+                <div class="col-4 mx-3 my-3 shadow">
+                    <p class="lead">Login here to continue...</p>
+                    <form class="form form-group" id="loginform">
+                        <input class="form-control my-3 text-light bg-dark" type="text" id="username" value=""
+                            placeholder="Enter username" required autofocus />
+                        <input class="form-control my-3 text-light bg-dark" type="password" id="password" value=""
+                            placeholder="Eter password" required />
+                        <input class="form-control btn btn-dark border my-3" type="button" id="loginbutton" value="Login"
+                            onclick="loginFun();" />
+                    </form>
+                </div>
+                <div class="col-3 mx-3 my-3 shadow">
+                    <p id="afterLogin" class="lead text-white"></p>
+                </div>
+                <div class="col-3 mx-3 my-3 shadow">
+                    <p id="afterInvalid" class="lead text-white"></p>
+                </div>
+            </div>
+        </div>
 
+    </div>
 </body>
 
 </html>

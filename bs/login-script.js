@@ -5,10 +5,12 @@ const loginFun = () => {
     console.log(userName, password);
     if (userName === 'user' && password === 'pass') {
         document.getElementById('afterLogin').innerHTML = `Hi ${userName}!`;
+        document.getElementById('afterInvalid').innerHTML = '';
         document.getElementById('loginform').reset();
     }
     else {
-        document.getElementById('afterLogin').innerHTML = 'Invalid credentials!';
+        document.getElementById('afterInvalid').innerHTML = 'Invalid credentials!';
+        document.getElementById('afterLogin').innerHTML = '';
         document.getElementById('loginform').reset();
     }
 };
