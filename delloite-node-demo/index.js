@@ -10,7 +10,6 @@ app.listen(portNumber, () => {
 app.get('/', (request, response) => {
     response.send('Welcome to Deloitte Node App');
     console.log('Welcome');
-
 });
 
 
