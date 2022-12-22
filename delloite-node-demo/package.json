@@ -1,0 +1,12 @@
+{
+  "name": "delloite-node-demo",
+  "version": "1.0.0",
+  "description": "Node demo project for Deloitte trainees 19 Dec 2022",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vaman Deshmukh",
+  "license": "ISC"
+}
+

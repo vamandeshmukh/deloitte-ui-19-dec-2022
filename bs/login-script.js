@@ -14,3 +14,25 @@ const loginFun = () => {
         document.getElementById('loginform').reset();
     }
 };
+
+
+
+// const modeSelector = () => {
+// document.getElementById('darkMode').style.display = 'block';
+// document.getElementById('lightMode').style.display = 'none';
+
+// const darkMode = document.getElementById('light-mode');
+// const lightMode = document.getElementById('dark-mode');
+
+// darkMode.style.display = 'block';
+// lightMode.style.display = 'none';
+//     if (darkMode.style.display === 'none') {
+//         darkMode = 'block';
+//         lightMode = 'none';
+//     }
+//     else {
+//         darkMode = 'none';
+//         lightMode = 'block';
+//     }
+// };
+
