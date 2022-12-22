@@ -1,3 +1,5 @@
+// npm install
+// npm start
 
 const express = require('express');
 const app = express();
@@ -12,11 +14,15 @@ app.get('/', (request, response) => {
     console.log('Welcome');
 });
 
+app.get('/home', (request, response) => {
+    response.send('Welcome to Deloitte Home');
+    console.log('Home');
+});
 
-
-
-
-
+app.get('/contact', (request, response) => {
+    response.send('Welcome to Deloitte Contact');
+    console.log('Contact');
+});
 
 // app.listen(portNumber, () => { });
 // app.get('/', () => { });
