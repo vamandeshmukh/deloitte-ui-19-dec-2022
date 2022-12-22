@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src='./login-script.js'></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+</head>
+
+<body class="bg-dark">
+
+    <div id="darkMode" class="bg-dark text-light">
+        <div class="row">
+            <div class="px-3 py-3 col-10" style="background-color: black;">
+                <img height="50px" src="https://cob.unt.edu/sites/default/files/img/logos/Deloitte-Logo.png">
+            </div>
+            <div class="px-3 py-3 col-2" style="background-color: black;">
+                <input class="btn btn-dark border my-3" type="button" id="modebutton" value="Mode"
+                    onclick="modeSelector();" />
+            </div>
+        </div>
+        <div class="container px-3 py-3">
+            <p class="display-4">Deloitte Login Form</p>
+            <hr />
+            <div class="row">
+                <div class="col-4 mx-3 my-3 shadow">
+                    <p class="lead">Login here to continue...</p>
+                    <form class="form form-group" id="loginform">
+                        <input class="form-control my-3 text-light bg-dark" type="text" id="username" value=""
+                            placeholder="Enter username" required autofocus />
+                        <input class="form-control my-3 text-light bg-dark" type="password" id="password" value=""
+                            placeholder="Eter password" required />
+                        <input class="form-control btn btn-dark border my-3" type="button" id="loginbutton"
+                            value="Login" onclick="loginFun();" />
+                    </form>
+                </div>
+                <div class="col-3 mx-3 my-3 shadow">
+                    <p id="afterLogin" class="lead text-white"></p>
+                </div>
+                <div class="col-3 mx-3 my-3 shadow">
+                    <p id="afterInvalid" class="lead text-white"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
